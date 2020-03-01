@@ -1,0 +1,17 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "Account",
+        "referenceId": "AccountRef1"
+      },
+      "Name": "Texeï",
+      "BillingStreet": "156 boulevard Haussmann",
+      "BillingCity": "Paris",
+      "BillingPostalCode": "75008",
+      "BillingCountry": "FRANCE",
+      "Website": "https://blog.texei.com",
+      "Score__c": 10
+    }
+  ]
+}

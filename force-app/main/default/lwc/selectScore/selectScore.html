@@ -1,0 +1,14 @@
+<template>
+  <template if:true={account.data}>
+    <lightning-card title="Score Selection" icon-name="standard:dashboard">
+      <p class="slds-p-horizontal_small">
+        <lightning-slider label="Score" value={score} max="10">
+        </lightning-slider>
+      </p>
+      <p slot="actions">
+        <lightning-button variant="brand" label="Save" onclick={saveScore}>
+        </lightning-button>
+      </p>
+    </lightning-card>
+  </template>
+</template>
